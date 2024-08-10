@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <!-- Require Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Title Tag -->
+  <title>Oyasu Meals | ホームページ</title>
+  <!-- FOnt Awesome Link -->
+  <script src="https://kit.fontawesome.com/0efc4701d2.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- Bootstrap v5.2 -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  />
+  <link
+  href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+  rel="stylesheet"
+  />  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="assets/vector/default-monochrome.svg" alt="oyasu_meal"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav justify-content-end" id="navbarScroll">
+        <ul class="navbar-nav flex-grow-1 pe-3 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">ホーム</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">メニュー</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">照り焼きサーモン</a></li>
+              <li><a class="dropdown-item" href="#">焼きうどん</a></li>
+              <li><a class="dropdown-item" href="#">親子丼</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">フルメニューを見る</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">スペシャル</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">レビュー</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">私たちについて</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">経営陣</a></li>
+              <li><a class="dropdown-item" href="#">シェフたち</a></li>
+              <li><a class="dropdown-item" href="#">お問い合わせ</a></li>
+            </ul>
+          </li>
+        </ul><a href="#" class="nav-link">
+          <span>
+            <button type="button" name="button" class="reservation-btn">予約</button></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- メインテキストエリア -->
+
+<section id="main-text-area">
+  <div class="main-bg-img">
+    <h1 class="typewrite" data-period="1000" data-type='[ "オンラインレストラン", "美味しい料理の楽園", "熱くてスパイシーな料理", "友人や家族のために" ]'>
+        <span class="wrap"></span>
+    </h1>
+    <h1 class="second-text">毎週末の特別料理！</h1>
+    <p class="main-text">新鮮な食材を使った、季節の特別料理をお楽しみください。親しみやすい雰囲気の中で、伝統的な日本料理をお届けします。家族や友人との素晴らしい時間を過ごすのに最適です。</p>
+    <button type="button" name="button" class="reservation-btn btn-lg">予約</button>
+  </div>
+</section>
+
+
+<!-- 歴史エリア -->
+
+<section id="history">
+  <div class="history-div">
+    <h1>レストランの歴史</h1>
+  <div class="q-center">
+    <blockquote class="blockquote"> <i class="fa-solid fa-quote-left"></i>
+      伝統と味が織りなす、心温まる物語をお届けします。
+    <i class="fa-solid fa-quote-right"></i></blockquote>
+    <p class="history-text">「Oyasu Meals」は、家族の絆と日本の伝統的な料理にインスパイアされ、開業されました。私たちのレストランは、何世代にもわたって受け継がれてきた秘伝のレシピを基に、丁寧に作り上げられた料理を提供しています。温かみのある雰囲気の中で、心からのおもてなしを感じていただけます。</p>
+    
+  </div>
+  <button class="css-button-shadow-border-sliding--sand">もっと読む</button>
+  </div>
+</section>
+
+
+  <!-- お客様の声 -->
+
+<section id="testimonial">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="スライド 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="スライド 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="スライド 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/meal1.jpg" class="d-block w-50 testimonial-img" alt="お食事1">
+        <div class="carousel-caption d-block d-md-block">
+          <div class="testimonial-text">
+            <h5>最高のディナー体験</h5>
+            <p>「Oyasu Meals」でのディナーは、まさに至福のひとときでした。料理の味も見た目も完璧で、家族全員が大満足でした。</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/meal2.jpg" class="d-block w-50 testimonial-img" alt="お食事2">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="testimonial-text">
+            <h5>忘れられない味</h5>
+            <p>本当に忘れられない味です。特に焼きうどんは絶品で、また来たいと思います！スタッフのサービスも素晴らしかったです。</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/meal3.jpg" class="d-block w-50 testimonial-img" alt="お食事3">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="testimonial-text">
+            <h5>心温まるおもてなし</h5>
+            <p>「Oyasu Meals」での食事は、まるで家族と一緒に過ごしているような心地よさがありました。伝統的な料理と温かいサービスに感動しました。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- 特徴 -->
+
+<section class="f-section" id="features">
+  <div class="row">
+    <div class="feature-box col-lg-4">
+      <img src="assets/dish.png" alt="美味しい料理" class="icon">
+      <h2>美味しい料理</h2>
+      <p>新鮮な食材と伝統的なレシピで作られた、最高の日本料理を提供しています。</p>
+    </div>
+    <div class="feature-box col-lg-4">
+      <img src="assets/24-hours.png" alt="プロフェッショナルなサービス" class="icon">
+      <h2>プロフェッショナルなサービス</h2>
+      <p>心温まるおもてなしと細やかなサービスで、お客様の特別な時間を演出します。</p>
+    </div>
+    <div class="feature-box col-lg-4">
+      <img src="assets/cheers.png" alt="充実したメニュー" class="icon">
+      <h2>充実したメニュー</h2>
+      <p>多彩なメニューで、季節ごとの特別料理や定番の味をお楽しみいただけます。</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- オーダーメニューグリッド -->
+<section id="order-menu">
+  <div class="inner-div">
+    <div class="container">
+      <h1>オーダーメニュー</h1>
+      <h5>おすすめのトレンディで人気のコース</h5>
+    </div>
+    <div class="order-navbar">
+      <ul class="nav nav-tabs nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">日替わりメニュー</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">デザート</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">スペシャル</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">ドリンク</a>
+        </li>
+      </ul>
+    </div>
+    <div class="grid-container">
+      <div class="grid-box">
+        <h3>寿司セット</h3>
+        <h5>新鮮なネタを使用した本格寿司</h5>
+      </div>
+      <div class="grid-box">
+        <h3>照り焼きチキン</h3>
+        <h5>甘辛いソースが絶品</h5>
+      </div>
+      <div class="grid-box big-box1">
+        <h3>ラーメンセット</h3>
+        <h5>コクのあるスープと自家製麺</h5>
+      </div>
+      <div class="grid-box big-box2">
+        <h3>天ぷら盛り合わせ</h3>
+        <h5>サクサクの衣が魅力</h5>
+      </div>
+      <div class="grid-box">
+        <h3>お好み焼き</h3>
+        <h5>ふわふわの生地とたっぷりの具材</h5>
+      </div>
+      <div class="grid-box">
+        <h3>カツ丼</h3>
+        <h5>ジューシーなカツと特製ダレ</h5>
+      </div>
+      <div class="grid-box">
+        <h3>うどんセット</h3>
+        <h5>だしの効いたスープともちもちのうどん</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="booking">
+  <div class="bookingHeader">
+    <h2>ご予約</h2>
+    <h5>おすすめのトレンディで人気のコースをご用意しています</h5>
+  </div>
+  <div class="openTime">
+    <h4>
+      月曜日〜金曜日: <span class="foodtime">午前8時 - 午後12時</span><br>
+      土曜日 - 日曜日: <span class="foodtime">午前10時 - 午後11時</span></h4>
+  </div>
+  <form action="">
+    <div class="row g-6">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="お名前を入力してください" aria-label="Enter Your Name">
+      </div>
+      <div class="col">
+        <input type="email" class="form-control" placeholder="メールアドレスを入力してください" aria-label="Enter Your Email">
+      </div>
+    </div>
+    <div class="row g-6">
+      <div class="col">
+        <input type="number" class="form-control" placeholder="電話番号を入力してください" aria-label="PhoneNumber">
+      </div>
+      <div class="col">
+        <select id="inputState" class="form-select">
+          <option selected>ご来店人数</option>
+          <option value="1">1人</option>
+          <option value="2">2人</option>
+          <option value="3">3人</option>
+          <option value="4">4人</option>
+          <option value="More than 4">4人以上</option>
+        </select>
+      </div>
+    </div>
+    <div class="row g-6">
+      <div class="col">
+        <input type="date" class="form-control" placeholder="予約日を選択してください" aria-label="date">
+      </div>
+      <div class="col">
+        <select id="inputState" class="form-select">
+          <option value="time" selected>ご希望の時間帯</option>
+          <option value="morning">午前</option>
+          <option value="brunch">ブランチ</option>
+          <option value="noon">午後</option>
+          <option value="evening">夕方</option>
+          <option value="Night">夜</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <button class="css-button-shadow-border-sliding--green">送信</button>
+    </div>
+  </form>
+</section>
+
+  <!-- Testimonials -->
+
+  <section id="our-specialties">
+    <div class="specialties-header">
+      <h2>私たちのこだわり</h2>
+      <p>「Oyasu Meals」では、厳選された食材と伝統の技術で作られる、こだわりの料理をお届けします。</p>
+    </div>
+
+    <div id="specialties-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>厳選された新鮮な海鮮</h2>
+          <img class="specialties-img" src="assets/seafood.jpg" alt="新鮮な海鮮">
+          <p>最高品質の海鮮を使用し、旬の味を存分に楽しんでいただけます。</p>
+        </div>
+        <div class="carousel-item">
+          <h2>伝統的な日本料理</h2>
+          <img class="specialties-img" src="assets/traditional-dish.jpg" alt="伝統的な日本料理">
+          <p>古くから受け継がれたレシピを用い、心温まる味わいを提供します。</p>
+        </div>
+        <div class="carousel-item">
+          <h2>アットホームな雰囲気</h2>
+          <img class="specialties-img" src="assets/restaurant-interior.jpg" alt="アットホームな雰囲気">
+          <p>居心地の良い空間で、ゆったりとお食事をお楽しみください。</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#specialties-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#specialties-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+</section>
+
+<section id="footer">
+  <div class="upperFooter">
+    <div class="newsletter">
+      <h4>ニュースレター</h4>
+      <p>最新情報や特別なオファーをお見逃しなく。</p>
+      <div></div>
+      <input type="email" class="form-control" placeholder="your.email@example.com"><br>
+      <button class="css-button-shadow-border-sliding--green">購読する</button>
+    </div>
+    <div class="address">
+      <img src="assets/cover.png" alt="oyasu-meals">
+      <address>
+        <i class="fa fa-map-marker"></i>
+        京都市東山区祇園町北側279-3 1F <br>
+        日本
+      </address>
+      <ul class="list-unstyled lgx-address-info">
+        <li><i class="fa fa-phone"></i> +81 75-561-6790</li>
+        <li><i class="fa fa-envelope"></i> oyasumeals@hexamail.com</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <div class="lgx-social-footer">
+      <ul class="social">
+          <li class="social-item"><a class="social-icon" href="#"><i class="fa-brands fa-linkedin fa-xl" aria-hidden="true"></i></a></li>
+          <li class="social-item"><a class="social-icon" href="#"><i class="fa fa-twitter fa-xl" aria-hidden="true"></i></a></li>
+          <li class="social-item"><a class="social-icon" href="#"><i class="fa fa-instagram fa-xl" aria-hidden="true"></i></a></li>
+          <li class="social-item"><a class="social-icon" href="#"><i class="fa fa-github fa-xl" aria-hidden="true"></i></a></li>
+      </ul>
+  </div>
+  <p>© 2024 Oyasu Meals. All rights reserved.</p>
+  </footer>
+</section>
+
+  <!-- //END // -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
